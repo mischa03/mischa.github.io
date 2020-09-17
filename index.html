@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <h1>Hello world</h1>
+    <div class="startPage">
+        <header>
+            <h1>Rekentoets</h1>
+            <h2>ROC Mondriaan</h2>
+        </header>
+        <main>
+            <div class="image">
+                <img src="img/undraw_destinations_fpv7.svg" alt="">
+            </div>
+            <form>
+                <div class="form">
+                    <h2>Start hier je hoofdreken toets</h2>
+                    <p>Til je reken niveau naar een nieuw level</p>
+                    <h3>Naam</h3>
+                    <input type="text" id="name">
+                    <h3>Klas</h3>
+                    <input type="text" id="class">
+                    <h3>Selecteer het soort sommen</h3>
+                    <select name="" id="sumType">
+                        <option>Optellen</option>
+                        <option>Aftrekken</option>
+                        <option>Vermedigvuldigen</option>
+                        <option>Delen</option>
+                    </select>
+                    <h3>Aantal sommen</h3>
+                    <div class="numberSumsInput">
+                        <input type="button" value="-" id=""></input>
+                        <div id="numberSums">25</div>
+                        <input type="button" value="+"></input>
+                    </div>
+                    <input type="submit" value="Start toets"></input>
+                </div>
+            </form>
+        </main>
+    </div>
 </body>
 </html>

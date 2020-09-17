@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.startPage {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.startPage header {
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.startPage header h1 {
+    color: #6C63FF;
+}
+
+.startPage header h2 {
+    color: white;
+}
+
+.startPage main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.startPage main .image {
+    width: 60%;
+    height: 90%;
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startPage main .image img {
+    width: 80%;
+}
+
+.startPage main form {
+    width: 40%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+    margin-left: 10%;
+}
+
+.startPage main form p {
+    margin-bottom: 20px;
+}
+
+.startPage main form h3 {
+    margin-top: 10px;
+}
+
+.startPage main form input {
+    cursor: text;
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    color: #6C63FF;
+}
+
+.startPage input:focus, select:focus, button:focus {
+    outline: none;
+}
+
+.startPage main form select {
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+    font-size: 1.2em;
+    padding-left: 10px;
+    color: #6C63FF;
+}
+
+.startPage main form .numberSumsInput {
+    display: flex;
+}
+
+.startPage main form .numberSumsInput input[type=button] {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #6C63FF;
+    font-weight: bold;
+    border: none;
+    font-size: 1.em;
+    cursor: pointer;
+}
+
+.startPage main form .numberSumsInput div {
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startPage main form input[type=submit] {
+    width: 140px;
+    height: 40px;
+    margin-top: 1em;
+    color: #6C63FF;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sumPage header {
+    width: 100%;
+    height: 90px;
+    background-color: #6C63FF;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em 0 2em;
+}
